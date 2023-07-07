@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Galeria de imagenes</title>
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: auto;
+      margin: 5px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <img src="copaAmerica.jpg" alt="Copa America 2021">
+    <img src="argentina.jpg" alt="Campeones del mundo">
+    <img src="finallisima.jpg" alt="La finallisima">
+  </div>
+</body>
+</html>
